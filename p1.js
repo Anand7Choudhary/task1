@@ -1,6 +1,13 @@
-
+let var1 = document.getElementById("loading_screen");
+let var2=document.getElementById("code_body");
+      var2.style.display="none";
+      var1.style.display = "block";
+      setTimeout(loading, 2000);
+      function loading() {
+        var1.style.display = "none";
+        var2.style.display="block";
+      }
 //navigation menu
-
 function openmenu(){
   var x=document.getElementById("navigation_menu");
   if(x.style.display==="none")
