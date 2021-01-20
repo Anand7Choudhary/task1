@@ -1,18 +1,15 @@
 //loading screen
 let var1 = document.getElementById("loading_screen");
 let var2 = document.getElementById("code_body");
-let var3 = document.getElementById("header");
-let var4 = document.getElementById("navigation_menu");
+let var3 = document.getElementById("moving_top_heading_abd_menu");
 var1.style.display = "block";
 var2.style.visibility = "hidden";
 var3.style.display = "none";
-var4.style.display = "none";
 setTimeout(loading, 2000);
 function loading() {
   var1.style.display = "none";
   var2.style.visibility = "visible";
   var3.style.display = "block";
-  var4.style.display = "flex";
 }
 //navigation menu
 function openmenu() {

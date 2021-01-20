@@ -472,14 +472,16 @@ header p {
   background-color: rgb(0, 0, 0);
 }
 .move_proj ._sign {
-  display: none;
+  background-color: rgb(0, 162, 255);
+  border-radius: 25px;
+  color: rgb(0, 162, 255);
+  padding: 0px 25px;
 }
 .move_proj .h_text {
   color: rgb(214, 214, 214);
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 3px;
-  text-decoration: 3px solid underline #ff7b00;
 }
 
 /* Moving Projects */
